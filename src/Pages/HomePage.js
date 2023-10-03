@@ -40,7 +40,7 @@ const HomePage = () => {
         
         {AllProducts.slice(start,end).map((Product,index) => {
             return(
-          <Card Product={Product} key={index}/>
+          <Card Product={Product} key={index} />
             )
         })}
       </div>

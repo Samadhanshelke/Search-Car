@@ -1,3 +1,4 @@
+import {one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen} from '../Data'
 const Products = [
     {
       "Name": "Toyota Camry",
@@ -7,7 +8,7 @@ const Products = [
       "average": "6km/1 litre",
       "Type": "Automatic",
       "Price": 25000,
-      "image": "../Data/images/1.jpg"
+      "image": one
     },
     {
       "Name": "Honda Civic",
@@ -17,7 +18,7 @@ const Products = [
       "average": "5.5km/1 litre",
       "Type": "Automatic",
       "Price": 23000,
-      "image":'../Data/images/2.jpg'
+      "image":two
     },
     {
       "Name": "Ford F-150",
@@ -27,7 +28,7 @@ const Products = [
       "average": "7km/1 litre",
       "Type": "Automatic",
       "Price": 35000,
-      "image":'../Data/images/3.jpg'
+      "image":three
     },
     {
         "Name": "Tesla Model 3",
@@ -37,7 +38,7 @@ const Products = [
         "average": "5km/1 kWh",
         "Type": "Electric",
         "Price": 40000,
-        "image":'../Data/images/4.jpg'
+        "image":four
       },
       {
         "Name": "Chevrolet Silverado",
@@ -47,7 +48,7 @@ const Products = [
         "average": "8km/1 litre",
         "Type": "Automatic",
         "Price": 34000,
-        "image":'../Data/images/5.jpg'
+        "image":five
       },
       {
         "Name": "Nissan Altima",
@@ -57,7 +58,7 @@ const Products = [
         "average": "11km/1 litre",
         "Type": "Automatic",
         "Price": 27000,
-        "image":'../Data/images/6.jpg'
+        "image":six
       },
       {
         "Name": "BMW X5",
@@ -67,15 +68,18 @@ const Products = [
         "average": "9km/1 litre",
         "Type": "Automatic",
         "Price": 55000,
-        "image":'../Data/images/7.jpg'
+        "image":seven
 
       },
       {
         "Name": "Jeep Wrangler",
-
+        "LaunchYear": 2022,
         "Type": "Manual",
+        "SitCapacity": 5,
+        "fuel": "Diesel",
         "Price": 33000,
-        "image":'../Data/images/8.jpg'
+        "image":eight,
+        "average": "9km/1 litre",
 
       },
       {
@@ -86,7 +90,7 @@ const Products = [
         "average": "16km/1 litre",
         "Type": "Automatic",
         "Price": 29000,
-        "image":'../Data/images/9.jpg'
+        "image":nine
 
       },
       {
@@ -97,7 +101,7 @@ const Products = [
         "average": "15km/1 litre",
         "Type": "Automatic",
         "Price": 27000,
-        "image":'../Data/images/10.jpg'
+        "image":ten
 
       },
       {
@@ -108,7 +112,7 @@ const Products = [
         "average": "14km/1 litre",
         "Type": "Automatic",
         "Price": 50000,
-        "image":'../Data/images/11.jpg'
+        "image":eleven
 
       },
       {
@@ -119,7 +123,7 @@ const Products = [
         "average": "11km/1 litre",
         "Type": "Automatic",
         "Price": 26000,
-        "image":'../Data/images/12.jpg'
+        "image":twelve
 
       },
       {
@@ -130,7 +134,7 @@ const Products = [
         "average": "13km/1 litre",
         "Type": "Automatic",
         "Price": 48000,
-        "image":'../Data/images/13.jpg'
+        "image":thirteen
 
       },
       {
@@ -141,7 +145,7 @@ const Products = [
         "average": "10km/1 litre",
         "Type": "Automatic",
         "Price": 31000,
-        "image":'../Data/images/14.jpg'
+        "image":fourteen
 
       },
       {
@@ -152,7 +156,7 @@ const Products = [
         "average": "6km/1 litre",
         "Type": "Automatic",
         "Price": 25000,
-        "image": "../Data/images/1.jpg"
+        "image": one
       },
       {
         "Name": "Honda Civic",
@@ -162,7 +166,7 @@ const Products = [
         "average": "5.5km/1 litre",
         "Type": "Automatic",
         "Price": 23000,
-        "image":'../Data/images/2.jpg'
+        "image":two
       },
       {
         "Name": "Ford F-150",
@@ -172,7 +176,7 @@ const Products = [
         "average": "7km/1 litre",
         "Type": "Automatic",
         "Price": 35000,
-        "image":'../Data/images/3.jpg'
+        "image":three
       },
       {
           "Name": "Tesla Model 3",
@@ -182,7 +186,7 @@ const Products = [
           "average": "5km/1 kWh",
           "Type": "Electric",
           "Price": 40000,
-          "image":'../Data/images/4.jpg'
+          "image":four
         },
         {
           "Name": "Chevrolet Silverado",
@@ -192,7 +196,7 @@ const Products = [
           "average": "8km/1 litre",
           "Type": "Automatic",
           "Price": 34000,
-          "image":'../Data/images/5.jpg'
+          "image":five
         },
         {
           "Name": "Nissan Altima",
@@ -202,7 +206,7 @@ const Products = [
           "average": "11km/1 litre",
           "Type": "Automatic",
           "Price": 27000,
-          "image":'../Data/images/6.jpg'
+          "image":six
         },
         {
           "Name": "BMW X5",
@@ -212,15 +216,18 @@ const Products = [
           "average": "9km/1 litre",
           "Type": "Automatic",
           "Price": 55000,
-          "image":'../Data/images/7.jpg'
+          "image":seven
   
         },
         {
           "Name": "Jeep Wrangler",
-  
+          "LaunchYear": 2022,
           "Type": "Manual",
+          "SitCapacity": 5,
+          "fuel": "Diesel",
           "Price": 33000,
-          "image":'../Data/images/8.jpg'
+          "image":eight,
+          "average": "9km/1 litre",
   
         },
         {
@@ -231,7 +238,7 @@ const Products = [
           "average": "16km/1 litre",
           "Type": "Automatic",
           "Price": 29000,
-          "image":'../Data/images/9.jpg'
+          "image":nine
   
         },
         {
@@ -242,7 +249,7 @@ const Products = [
           "average": "15km/1 litre",
           "Type": "Automatic",
           "Price": 27000,
-          "image":'../Data/images/10.jpg'
+          "image":ten
   
         },
         {
@@ -253,7 +260,7 @@ const Products = [
           "average": "14km/1 litre",
           "Type": "Automatic",
           "Price": 50000,
-          "image":'../Data/images/11.jpg'
+          "image":eleven
   
         },
         {
@@ -264,7 +271,7 @@ const Products = [
           "average": "11km/1 litre",
           "Type": "Automatic",
           "Price": 26000,
-          "image":'../Data/images/12.jpg'
+          "image":twelve
   
         },
         {
@@ -275,7 +282,7 @@ const Products = [
           "average": "13km/1 litre",
           "Type": "Automatic",
           "Price": 48000,
-          "image":'../Data/images/13.jpg'
+          "image":thirteen
   
         },
         {
@@ -286,7 +293,7 @@ const Products = [
           "average": "10km/1 litre",
           "Type": "Automatic",
           "Price": 31000,
-          "image":'../Data/images/14.jpg'
+          "image":fourteen
   
         },
         {
@@ -297,7 +304,7 @@ const Products = [
           "average": "6km/1 litre",
           "Type": "Automatic",
           "Price": 25000,
-          "image": "../Data/images/1.jpg"
+          "image": one
         },
         {
           "Name": "Honda Civic",
@@ -307,7 +314,7 @@ const Products = [
           "average": "5.5km/1 litre",
           "Type": "Automatic",
           "Price": 23000,
-          "image":'../Data/images/2.jpg'
+          "image":two
         },
         {
           "Name": "Ford F-150",
@@ -317,7 +324,7 @@ const Products = [
           "average": "7km/1 litre",
           "Type": "Automatic",
           "Price": 35000,
-          "image":'../Data/images/3.jpg'
+          "image":three
         },
         {
             "Name": "Tesla Model 3",
@@ -327,7 +334,7 @@ const Products = [
             "average": "5km/1 kWh",
             "Type": "Electric",
             "Price": 40000,
-            "image":'../Data/images/4.jpg'
+            "image":four
           },
           {
             "Name": "Chevrolet Silverado",
@@ -337,7 +344,7 @@ const Products = [
             "average": "8km/1 litre",
             "Type": "Automatic",
             "Price": 34000,
-            "image":'../Data/images/5.jpg'
+            "image":five
           },
           {
             "Name": "Nissan Altima",
@@ -347,7 +354,7 @@ const Products = [
             "average": "11km/1 litre",
             "Type": "Automatic",
             "Price": 27000,
-            "image":'../Data/images/6.jpg'
+            "image":six
           },
           {
             "Name": "BMW X5",
@@ -357,15 +364,18 @@ const Products = [
             "average": "9km/1 litre",
             "Type": "Automatic",
             "Price": 55000,
-            "image":'../Data/images/7.jpg'
+            "image":seven
     
           },
           {
             "Name": "Jeep Wrangler",
-    
+            "LaunchYear": 2022,
             "Type": "Manual",
+            "SitCapacity": 5,
+            "fuel": "Diesel",
             "Price": 33000,
-            "image":'../Data/images/8.jpg'
+            "image":eight,
+            "average": "9km/1 litre",
     
           },
           {
@@ -376,7 +386,7 @@ const Products = [
             "average": "16km/1 litre",
             "Type": "Automatic",
             "Price": 29000,
-            "image":'../Data/images/9.jpg'
+            "image":nine
     
           },
           {
@@ -387,7 +397,7 @@ const Products = [
             "average": "15km/1 litre",
             "Type": "Automatic",
             "Price": 27000,
-            "image":'../Data/images/10.jpg'
+            "image":ten
     
           },
           {
@@ -398,7 +408,7 @@ const Products = [
             "average": "14km/1 litre",
             "Type": "Automatic",
             "Price": 50000,
-            "image":'../Data/images/11.jpg'
+            "image":eleven
     
           },
           {
@@ -409,7 +419,7 @@ const Products = [
             "average": "11km/1 litre",
             "Type": "Automatic",
             "Price": 26000,
-            "image":'../Data/images/12.jpg'
+            "image":twelve
     
           },
           {
@@ -420,7 +430,7 @@ const Products = [
             "average": "13km/1 litre",
             "Type": "Automatic",
             "Price": 48000,
-            "image":'../Data/images/13.jpg'
+            "image":thirteen
     
           },
           {
@@ -431,7 +441,7 @@ const Products = [
             "average": "10km/1 litre",
             "Type": "Automatic",
             "Price": 31000,
-            "image":'../Data/images/14.jpg'
+            "image":fourteen
     
           },
           {
@@ -442,7 +452,7 @@ const Products = [
             "average": "6km/1 litre",
             "Type": "Automatic",
             "Price": 25000,
-            "image": "../Data/images/1.jpg"
+            "image": one
           },
           {
             "Name": "Honda Civic",
@@ -452,7 +462,7 @@ const Products = [
             "average": "5.5km/1 litre",
             "Type": "Automatic",
             "Price": 23000,
-            "image":'../Data/images/2.jpg'
+            "image":two
           },
           {
             "Name": "Ford F-150",
@@ -462,7 +472,7 @@ const Products = [
             "average": "7km/1 litre",
             "Type": "Automatic",
             "Price": 35000,
-            "image":'../Data/images/3.jpg'
+            "image":three
           },
           {
               "Name": "Tesla Model 3",
@@ -472,7 +482,7 @@ const Products = [
               "average": "5km/1 kWh",
               "Type": "Electric",
               "Price": 40000,
-              "image":'../Data/images/4.jpg'
+              "image":four
             },
             {
               "Name": "Chevrolet Silverado",
@@ -482,7 +492,7 @@ const Products = [
               "average": "8km/1 litre",
               "Type": "Automatic",
               "Price": 34000,
-              "image":'../Data/images/5.jpg'
+              "image":five
             },
             {
               "Name": "Nissan Altima",
@@ -492,7 +502,7 @@ const Products = [
               "average": "11km/1 litre",
               "Type": "Automatic",
               "Price": 27000,
-              "image":'../Data/images/6.jpg'
+              "image":six
             },
             {
               "Name": "BMW X5",
@@ -502,15 +512,18 @@ const Products = [
               "average": "9km/1 litre",
               "Type": "Automatic",
               "Price": 55000,
-              "image":'../Data/images/7.jpg'
+              "image":seven
       
             },
             {
               "Name": "Jeep Wrangler",
-      
+              "LaunchYear": 2022,
               "Type": "Manual",
+              "SitCapacity": 5,
+              "fuel": "Diesel",
               "Price": 33000,
-              "image":'../Data/images/8.jpg'
+              "image":eight,
+              "average": "9km/1 litre",
       
             },
             {
@@ -521,7 +534,7 @@ const Products = [
               "average": "16km/1 litre",
               "Type": "Automatic",
               "Price": 29000,
-              "image":'../Data/images/9.jpg'
+              "image":nine
       
             },
             {
@@ -532,7 +545,7 @@ const Products = [
               "average": "15km/1 litre",
               "Type": "Automatic",
               "Price": 27000,
-              "image":'../Data/images/10.jpg'
+              "image":ten
       
             },
             {
@@ -543,7 +556,7 @@ const Products = [
               "average": "14km/1 litre",
               "Type": "Automatic",
               "Price": 50000,
-              "image":'../Data/images/11.jpg'
+              "image":eleven
       
             },
             {
@@ -554,7 +567,7 @@ const Products = [
               "average": "11km/1 litre",
               "Type": "Automatic",
               "Price": 26000,
-              "image":'../Data/images/12.jpg'
+              "image":twelve
       
             },
             {
@@ -565,7 +578,7 @@ const Products = [
               "average": "13km/1 litre",
               "Type": "Automatic",
               "Price": 48000,
-              "image":'../Data/images/13.jpg'
+              "image":thirteen
       
             },
             {
@@ -576,7 +589,7 @@ const Products = [
               "average": "10km/1 litre",
               "Type": "Automatic",
               "Price": 31000,
-              "image":'../Data/images/14.jpg'
+              "image":fourteen
       
             },
             {
@@ -587,7 +600,7 @@ const Products = [
               "average": "6km/1 litre",
               "Type": "Automatic",
               "Price": 25000,
-              "image": "../Data/images/1.jpg"
+              "image": one
             },
             {
               "Name": "Honda Civic",
@@ -597,7 +610,7 @@ const Products = [
               "average": "5.5km/1 litre",
               "Type": "Automatic",
               "Price": 23000,
-              "image":'../Data/images/2.jpg'
+              "image":two
             },
             {
               "Name": "Ford F-150",
@@ -607,7 +620,7 @@ const Products = [
               "average": "7km/1 litre",
               "Type": "Automatic",
               "Price": 35000,
-              "image":'../Data/images/3.jpg'
+              "image":three
             },
             {
               "Name": "Tesla Model 3",
@@ -617,8 +630,14 @@ const Products = [
               "average": "5km/1 kWh",
               "Type": "Electric",
               "Price": 40000,
-              "image":'../Data/images/4.jpg'
-            },    
+              "image":four
+            }
+             
+              
+             
+             
+              
+     
   ]
   
   export default Products

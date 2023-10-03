@@ -4,12 +4,12 @@ import {GiSteeringWheel} from 'react-icons/gi'
 import {LuFuel} from 'react-icons/lu'
 
 const Card = ({Product}) => {
-    
+   
   return (
     <div className='bg-white p-4 rounded-xl shadow-sm text-[#393b41]'>
         <div>
-      
-            <img src={Product.image} alt='car image' className='rounded-lg w-[300px] h-[200px]'/>
+           
+            <img src={Product.image} alt='car_image' className='rounded-lg w-[300px] h-[200px]'/>
            
         </div>
         <div className='flex justify-between p-2'>
@@ -18,7 +18,7 @@ const Card = ({Product}) => {
         </div>
         <div className='grid grid-cols-2 p-2'>
            <span className='flex items-center gap-1 '><BsPeople className='text-[#4899ed]'/>  { Product.SitCapacity} people</span>
-           <span className='flex items-center gap-1 '><LuFuel className='text-[#4899ed]'/>{Product.fuel}</span>
+           <span className='flex items-center gap-1 '><LuFuel className='text-[#101010]'/>{Product.fuel}</span>
            <span className='flex items-center gap-1 '><BsSpeedometer2 className='text-[#4899ed]'/>{Product.average} </span>
            <span className='flex items-center gap-1 '><GiSteeringWheel className='text-[#4899ed]'/>{Product.Type} </span>
         </div>
