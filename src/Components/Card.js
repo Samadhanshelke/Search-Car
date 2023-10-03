@@ -2,14 +2,14 @@ import React from 'react'
 import {BsHeart,BsPeople,BsSpeedometer2} from 'react-icons/bs'
 import {GiSteeringWheel} from 'react-icons/gi'
 import {LuFuel} from 'react-icons/lu'
-import one from '../Data/images/1.jpg'
+
 const Card = ({Product}) => {
-    console.log(Product.image);
+    
   return (
     <div className='bg-white p-4 rounded-xl shadow-sm text-[#393b41]'>
         <div>
       
-            <img src={one} alt='hii' className='rounded-lg w-[300px] h-[200px]'/>
+            <img src={Product.image} alt='car image' className='rounded-lg w-[300px] h-[200px]'/>
            
         </div>
         <div className='flex justify-between p-2'>
