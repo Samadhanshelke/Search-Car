@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { useEffect } from 'react';
+import Navbar from './Components/Navbar';
+import HomePage from './Pages/HomePage';
+import { Route,Routes,Redirect, useNavigate} from "react-router-dom";
 
 function App() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    // Redirect to /page/1 when this component mounts
+    navigate(`/page/1`);
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" w-[98vw] flex justify-center items-center flex-col m-auto">
+  
+     <Navbar/>
+     <Routes>
+        {/* <Route path="/" element='h1' /> */}
+        <Route path="/page/:page" element={<HomePage/>} />
+    </Routes>
+    
     </div>
   );
 }
